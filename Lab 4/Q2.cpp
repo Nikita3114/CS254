@@ -33,8 +33,7 @@ double median_sorted(vector<int> a1, vector<int> a2){
 int main(){
     freopen("test_cases_Q2.txt","r",stdin);
     freopen("output_Q2.txt","w",stdout);
-    int t; cin >> t;
-    while(t--){
+    
         int n, m; cin >> n >> m;
         vector<int> a(n), b(m);
         for(int i=0; i<n; i++)
@@ -43,4 +42,3 @@ int main(){
             cin >> b[i];
         cout << "Median of the two sorted arrays: "<< median_sorted(a, b) << endl;
     }
-}

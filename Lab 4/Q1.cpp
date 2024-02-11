@@ -35,12 +35,9 @@ long long merge_sort(vector<int> &a, int l, int r){
 int main(){
     freopen("test_cases_Q1.txt","r",stdin);
     freopen("output_Q1.txt","w",stdout);
-    int t; cin >> t;
-    while(t--){
         int n; cin >> n;
         vector<int> a(n);
         for(int i=0; i<n; i++)
             cin >> a[i];
         cout << "Number of Inversions: " << merge_sort(a, 0, n-1) << endl;
     }
-}
