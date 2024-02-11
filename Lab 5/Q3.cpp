@@ -28,8 +28,8 @@ bool is_bi(vector<vector<bool>> v){
 
 int main()
 {
-	ifstream inputFile("input.txt");
-    ofstream outputFile("output.txt");
+	ifstream inputFile("input_3.txt");
+    ofstream outputFile("output_3.txt");
 
     if (!inputFile.is_open()) {
         cerr << "Error opening input file." << endl;
